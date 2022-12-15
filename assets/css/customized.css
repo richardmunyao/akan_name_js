@@ -1,0 +1,46 @@
+form.akan-form {
+    width: 80%;
+    margin: auto;
+    padding: 10px; 
+       
+     
+}
+
+.form-div {
+    border-right: solid 1px rgba(212, 212, 255, 0.1);
+    border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+    border-left: solid 1px rgba(212, 212, 255, 0.1); 
+    background-color: #242942;
+    padding-bottom: 2rem;
+    padding-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+div.field.calendar {
+    width: 10 rem;
+}
+
+
+form.akan-form  .row.gender-row {
+    width: 100%;       
+    padding-top: 0.5rem;  
+    padding-bottom: 4rem;
+}
+
+form.akan-form  .row.date-row {
+    width: 100%;       
+    padding-top: 0.5rem;  
+}
+
+form.akan-form  .row.date-row .calendar {
+    width: 10%;  
+}
+
+form.akan-form  .row.date-row .calendar.yyyy {
+    width: 12%;  
+}
+
+form.akan-form  .row.date-row label {
+    text-align: center;
+      
+}
