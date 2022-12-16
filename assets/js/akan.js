@@ -63,13 +63,15 @@ displayNewName(newName);
 }
 
 function displayNewName(newName) {
-    console.log("Hello now displayNewName");
+    console.log("in displayNewName");
     document.getElementById("name-major").innerHTML = `<h1> Your Akan Name is: ${newName}</h1> `;
     // To DO:
-    // 1. Limit what can be entered in text box
+    // 1. Limit what can be entered in text box: https://stackoverflow.com/questions/469357/html-text-input-allow-only-numeric-input
     // 2. Attract more attention to the newName shown
     // 3. Some more paragraphs below form about name, day of week of birth, etc
     // 4. Allow calendar picker to populate input
     // 5. Reset button to also reset the new name shown in the <h1> header
     // 6. Edit menu to be more relevant.
 }
+
+
