@@ -45,15 +45,8 @@ form.akan-form  .row.date-row label {
       
 }
 
-/* remove arrows in number field */
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
+.input-error{
+    outline: 1px solid red !important;
+    box-shadow: 0 0 0 2px red !important;
+  }
