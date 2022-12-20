@@ -70,7 +70,7 @@ function displayNewName(newName) {
     // 2. Attract more attention to the newName shown
     // 3. Some more paragraphs below form about name, day of week of birth, etc
     // 4. Allow calendar picker to populate input
-    // 5. Reset button to also reset the new name shown in the <h1> header
+    
     // 6. Edit menu to be more relevant.
 }
 
@@ -116,3 +116,8 @@ setInputFilter(document.getElementById("mm"), function(value) {
   setInputFilter(document.getElementById("yyyy"), function(value) {
     return /^\d*$/.test(value); // Allow digits only
   }, "Only digits are allowed");
+
+  // 5. Reset button to also reset the new name shown in the <h1> header
+document.getElementById("reset").addEventListener("click", function(){
+    document.getElementById("name-major").innerHTML = `<h2>Tell us about you</h2> `;
+});
